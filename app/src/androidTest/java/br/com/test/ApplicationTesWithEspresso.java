@@ -46,7 +46,7 @@ public class ApplicationTesWithEspresso extends ActivityInstrumentationTestCase2
                 .check(matches(
                         AllOf.allOf(
                                 isDisplayed(),
-                                withText("Fisrt Test!")
+                                withText("Fisrt Tests!")
                         )));
 
         onView(withId(R.id.editTextId)).perform(
