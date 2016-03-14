@@ -96,7 +96,7 @@ public class ApplicationTesWithEspresso {
                 .check(matches(
                         AllOf.allOf(
                                 isDisplayed(),
-                                withText("Hello World!")
+                                withText("Hello World")
                         )));
 
         onView(withId(R.id.userId))
