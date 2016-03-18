@@ -19,7 +19,7 @@ import android.util.Log;
 import android.view.WindowManager;
 
 import com.robotium.solo.Solo;
-
+ 
 import org.hamcrest.core.AllOf;
 import org.junit.Before;
 import org.junit.Rule;
@@ -96,7 +96,7 @@ public class ApplicationTesWithEspresso {
                 .check(matches(
                         AllOf.allOf(
                                 isDisplayed(),
-                                withText("Hello World")
+                                withText("Hello World!")
                         )));
 
         onView(withId(R.id.userId))
