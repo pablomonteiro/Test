@@ -1,5 +1,5 @@
 package br.com.test;
- 
+
 import static android.support.test.espresso.Espresso.*;
 import static android.support.test.espresso.action.ViewActions.typeText;
 import static android.support.test.espresso.action.ViewActions.click;
