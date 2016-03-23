@@ -83,7 +83,7 @@ public class ApplicationTesWithEspresso {
                 .check(matches(
                         AllOf.allOf(
                                 isDisplayed(),
-                                withText("Fisrt Test!")
+                                withText("Fisrt Test")
                         )));
 
         onView(withId(R.id.editTextId)).perform(
